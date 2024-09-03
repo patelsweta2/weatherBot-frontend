@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDCXnNI4P7hc_VP56_u7FuM1_N8vB8YqEY",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "weather-bot-36f46.firebaseapp.com",
   projectId: "weather-bot-36f46",
   storageBucket: "weather-bot-36f46.appspot.com",
