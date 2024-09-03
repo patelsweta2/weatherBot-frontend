@@ -28,7 +28,7 @@ const Header = () => {
             </li>
             <li>
               <a href="#" className="hover:underline">
-                Contact
+                Login
               </a>
             </li>
           </ul>
